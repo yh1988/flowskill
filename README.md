@@ -4,14 +4,16 @@
 
 > 完整版（10+ 中文实战技能 + 逐个场景文档 + 持续更新）整理中，发布时会在本页更新入口。
 
-## 安装（Claude Code，一条命令）
+## 安装（Claude Code，两条命令）
 
 在 Claude Code 里执行：
 
 ```
-/plugin marketplace add yh1988/flowskill
+/plugin marketplace add https://github.com/yh1988/flowskill.git
 /plugin install flowskill-free@flowskill-cn
 ```
+
+> 请用上面的 **HTTPS 地址**：简写形式 `add yh1988/flowskill` 会走 SSH 克隆，没配置过 GitHub SSH 的机器会报 "host key verification failed"。如果你的机器已配好 GitHub SSH key，简写也可以用。
 
 装好后直接说人话即可触发，例如：
 
