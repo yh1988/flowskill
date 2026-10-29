@@ -1,0 +1,23 @@
+{
+  "name": "flowskill-cn",
+  "owner": {
+    "name": "Haoyard"
+  },
+  "metadata": {
+    "description": "FlowSkill：中文场景实战 Agent Skills（n8n 工作流生成 / 小红书内容 / 闲鱼卖家运营）",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "flowskill-free",
+      "description": "中文实战技能包免费版：n8n 工作流生成师、小红书笔记工坊、闲鱼卖家助手",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/n8n-workflow-forge",
+        "./skills/xhs-content-studio",
+        "./skills/xianyu-seller-kit"
+      ]
+    }
+  ]
+}
